@@ -1,2 +1,18 @@
-# AriaEmailGen
-AriaEmailGen, an advanced Python application, simplifies the process of bulk email credential creation by supporting major domains like Gmail, Yahoo, Hotmail, and Outlook. With its intuitive interface and comprehensive features, it's a preferred choice for users seeking efficient email generation solutions.
+#  AriaEmailGen | Python
+![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic1.png)
+
+### Features:
+   - Gmail.com
+   - Yahoo.com
+   - Hotmail.com
+   - Outlook.com
+![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic.png)
+# Intructions:  
+
+> Download the latest version of python
+
+> Open CMD in the folder
+```
+python email_generator.py
+```
+### Location of Email's, is in the folder called "emails.txt"
