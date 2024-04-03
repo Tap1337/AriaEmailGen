@@ -1,5 +1,5 @@
 #  AriaEmailGen | Python
-![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic1.png)
+![image](https://github.com/Tap1337/AriaEmailGen/blob/main/image/pic1.png)
 
 ### Features:
     - Gmail.com
@@ -7,7 +7,7 @@
     - Hotmail.com
     - Outlook.com
 
-![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic.png)
+![image](https://github.com/Tap1337/AriaEmailGen/blob/main/image/pic.png)
 # Intructions:  
 
 > Download the latest version of python
