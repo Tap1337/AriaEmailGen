@@ -2,10 +2,10 @@
 ![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic1.png)
 
 ### Features:
-   - Gmail.com
-   - Yahoo.com
-   - Hotmail.com
-   - Outlook.com
+    - Gmail.com
+    - Yahoo.com
+    - Hotmail.com
+    - Outlook.com
 
 ![image](https://github.com/Tap1337/AriaEmailGen/blob/main/Image/pic.png)
 # Intructions:  
