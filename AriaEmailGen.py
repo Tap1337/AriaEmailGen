@@ -3,24 +3,23 @@ import string
 import os
 
 class Loader:
-    def update_progress(self, email, password):
-        print(f"Generating {email} (Password: {password})")
+    def update_progress(self, email):
+        print(f"Generating {email}")
 
 def generate_credentials(num_credentials):
     credentials = []
     domains = ["gmail.com", "yahoo.com", "hotmail.com", "outlook.com"]
-    for _ in range(num_credentials):
-        username = ''.join(random.choice(string.ascii_lowercase) for _ in range(8))
+    for i in range(1, num_credentials + 1):
+        random_char = random.choice(string.ascii_letters + string.digits)
         domain = random.choice(domains)
-        password = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10))
-        email = f"{username}@{domain}"
-        credentials.append((email, password))
+        email = f"example{i}{random_char}@{domain}"
+        credentials.append(email)
     return credentials
 
 def save_to_file(credentials):
     with open("emails.txt", "w") as file:
-        for email, password in credentials:
-            file.write(f"Email: {email}, Password: {password}\n")
+        for email in credentials:
+            file.write(f"Email: {email}\n")
 
 def display_loader():
     print('''
@@ -45,13 +44,13 @@ def display_loader():
      github.com/Tap1337 | discord.gg/ariacc
                                                   
     ''')
-    print("Generating emails and passwords...")
+    print("Generating emails...")
     credentials = generate_credentials(num_credentials)
     save_to_file(credentials)
     loader = Loader()
-    for email, password in credentials:
-        loader.update_progress(email, password)
-    print("Emails and passwords generated and saved to 'emails.txt'!")
+    for email in credentials:
+        loader.update_progress(email)
+    print("Emails generated and saved to 'emails.txt'!")
     input("Press Enter to exit...")
 
 if __name__ == "__main__":
